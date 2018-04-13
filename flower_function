@@ -1,0 +1,25 @@
+<html><body><pre>
+<span style="color: #33997E;">void</span> flower() { 
+&nbsp;&nbsp;<span style="color: #666666;">//stem</span>
+&nbsp;&nbsp;<span style="color: #006699;">fill</span>(#17A52D);
+&nbsp;&nbsp;<span style="color: #006699;">rect</span>(120, 130, 60, 130, 20);
+&nbsp;&nbsp;<span style="color: #006699;">fill</span>(#ED00FA);
+&nbsp;&nbsp;<span style="color: #006699;">noStroke</span>();
+&nbsp;&nbsp;<span style="color: #666666;">// bottom</span>
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(130, 130, 50, 50);
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(170, 130, 50, 50);
+
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(100, 100, 50, 50);
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(200, 100, 50, 50);
+&nbsp;&nbsp;<span style="color: #666666;">//top</span>
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(100, 60, 50, 50);
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(200, 60, 50, 50);
+
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(130, 30, 50, 50);
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(170, 30, 50, 50);
+&nbsp;&nbsp;<span style="color: #666666;">//middle</span>
+&nbsp;&nbsp;<span style="color: #006699;">fill</span>(#BFFA00);
+&nbsp;&nbsp;<span style="color: #006699;">ellipse</span>(150, 80, 70, 70);
+}
+
+</pre></body></html>
