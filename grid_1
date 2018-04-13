@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>grid 1</title>
+</head>
+<body>
+<pre>
+<span style="color: #006699;">size</span>(400, 300);
+surface.setResizable(<span style="color: #33997E;">true</span>);
+<span style="color: #006699;">background</span>(#02EFF5);
+<span style="color: #006699;">stroke</span>(#D802F5);
+<span style="color: #006699;">strokeWeight</span>(2);
+
+<span style="color: #669900;">for</span> (<span style="color: #E2661A;">float</span> x = 0; x &lt; <span style="color: #D94A7A;">width</span>; x += 20) {
+&nbsp;&nbsp;<span style="color: #006699;">line</span>(x, 0, x, <span style="color: #D94A7A;">height</span>);
+}
+
+<span style="color: #669900;">for</span> (<span style="color: #E2661A;">float</span> y = 0; y &lt; <span style="color: #D94A7A;">height</span>; y += 20) {
+&nbsp;&nbsp;<span style="color: #006699;">line</span>(0, y, <span style="color: #D94A7A;">width</span>, y);
+}
+
+</pre></body></html>
